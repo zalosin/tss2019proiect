@@ -5,8 +5,8 @@ Să se scrie un program Java, precum şi cerințele (specificația) acestuia.
 
     solve(n,arr,a,b,c)
 
-1. Pe baza cerințelor programului, să se genereze date de test folosind metode funcționale:`
-(a) partiționare în clase de echivalenţă
+1. Pe baza cerințelor programului, să se genereze date de test folosind metode funcționale:`<br>
+(a) partiționare în clase de echivalenţă<br>
     > pentru n 3 clase de echivalenta<br>
         N_1 = 1..100<br>
         N_2 = { n | n < 1 }<br>
@@ -16,13 +16,13 @@ Să se scrie un program Java, precum şi cerințele (specificația) acestuia.
         O_1 = 0<br>
         O_2 = { x | 0 < x < n}<br>
 
-    deci clasele de echivalenta pentru tot programul sunt 
+    deci clasele de echivalenta pentru tot programul sunt <br>
     >C_11 = { n,arr,a,b,c | n \in N_1, |arr| = n, (a,b,c) \in O_1 }<br>
     >C_12 = { n,arr,a,b,c | n \in N_1, |arr| = n, (a,b,c) \in O_2 }<br>
     >C_21 = { n,arr,a,b,c | n \in N_2, |arr| = n, (a,b,c) \in O_1 }<br>
     >C_32 = { n,arr,a,b,c | n \in N_3, |arr| = n, (a,b,c) \in O_1 }<br>
     
-    (b ) analiza valorilor de frontieră,
+    (b ) analiza valorilor de frontieră,<br>
     > pentru N avem valori de frontiera : 0,1,100,101 deci<br>
         N_1 : 1,100<br>
         N_2 : 0<br>
@@ -45,12 +45,12 @@ Să se scrie un program Java, precum şi cerințele (specificația) acestuia.
         >6) 101<br>
         >7) (>) 101<br>
 
-    > v
+    > v<br>
         1) {arr | |arr| = 1}<br>
         2) {arr | 1 < |arr| < 100}<br>
         3) {arr | |arr| = 100}<br>
 
-    > a
+    > a<br>
         1) a < 0<br>
         2) a = 0<br>
         3) a > 0<br>
@@ -60,7 +60,7 @@ Să se scrie un program Java, precum şi cerințele (specificația) acestuia.
         2) b = 0<br>
         3) b > 0<br>
         
-    > c
+    > c<br>
         1) c < 0<br>
         2) c = 0<br>
         3) c > 0<br>
