@@ -95,7 +95,7 @@ Să se scrie un program Java, precum şi cerințele (specificația) acestuia.
 
 2. Să se transforme programul într-un graf orientat şi, pe baza acestuia, să se genereze date de
 test care realizează acoperire la nivel de
-![Graph](/Images/graph.png "Graful programului")
+![Graph](/Images/Graph.png "Graful programului")
 (a ) instrucțiune,   
 ![instructiune](/Images/nivel_instructiune.png "Nivel Instructiune")
 (b ) decizie
